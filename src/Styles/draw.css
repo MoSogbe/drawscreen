@@ -1,0 +1,26 @@
+.draw_main {
+    display:flex ;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items:center ;
+}
+.draw_container {
+    display:flex ;
+    justify-content:center ;
+    align-items:center ;
+    flex-wrap:wrap;
+    margin-left: 25px;
+
+}
+
+.draw_item {
+    display:flex ;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items:center ;
+    color:gray;
+    height:80px;
+    width:180px;
+    background-color:white;
+    margin:10px
+}
